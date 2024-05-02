@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="#"><img class="logo" src="Images/logo.png" alt=""></a>
+
+        <div class="header-buttons">
+            <div>
+                <button>MENUS</button>
+            </div>
+            <div>
+                <button>HOURS & LOCATION</button>
+            </div>
+            <div>
+                <button>PRIVATE DINING & CATERING</button>
+            </div>
+            <div>
+                <button>ART</button>
+            </div>
+            <div>
+                <div class="shop-delivery-margin">
+                    <button class="shop-delivery" onclick="drops1()">SHOP</button>
+                    <img id="arrow1" src="Images/header-triangle.png" alt="" onclick="drops1()">
+                </div>
+                <ul id="dropdown1">
+                    <li>Sona Home</li>
+                    <li>Gift Cards</li>
+                    <li>Custom Cakes</li>
+                </ul>
+            </div>
+            <div>
+                <div class="shop-delivery-margin" onclick="drops2()">
+                    <button class="shop-delivery">DELIVERY</button>
+                    <img id="arrow2" src="Images/header-triangle.png" alt="" onclick="drops2()">
+                </div>
+                <ul id="dropdown2">
+                    <li>Ubereats</li>
+                    <li>Grubhub</li>
+                    <li>Seamless</li>
+                    <li>Doordash</li>
+                </ul>
+            </div>
+            <div>
+                <button class="reserve-now">Reserve Now</button>
+            </div>
+        </div>
+        <div id="hamburger-icon"  onclick="toggleMobileMenu(this)">
+            <div>
+                <div id="bar1"></div>
+                <div id="bar2"></div>
+                <div id="bar3"></div>
+            </div>
+            <div id="mobile-menu">
+                    <a href="index.html">MENUS</a>
+                    <a href="index.html">HOURS & LOCATION</a>
+                    <a href="index.html">PRIVATE DINING & CATERING</a>
+                    <a href="index.html">ART</a>
+                    <a href="index.html">SHOP</a>  
+                    <a href="index.html">DELIVERY</a>
+                    <p>36 E 20th St New York, NY 10003</p>
+                    <p>	Phone: (212) 203-6460 </p>
+                    <a href="index.html">Reserve Now</a>
+            </div>
+        </div>
+    </header>
+    <div class="background">
+    </div>
+    <main>
+        <div class="main-image-text-sets">
+            <div class="text-area">
+                <p class="main-titles">WELCOME</p>
+                <div class="main-description">
+                    <p>In 1975, as a young immigrant to America, Madan Goyal opened Texas’ first-ever Indian restaurant, India House. </p>
+
+                    <p>His son Maneesh was born just a few months later. The restaurant left an indelible mark on him.</p>
+                    
+                    <p>Forty-five years later, Maneesh fulfilled a lifelong dream to follow in his father’s footsteps, opening SONA in the Spring of 2021.</p>
+                    
+                    <p>Sit back and enjoy your evening—perhaps you’ll even find Madan proudly walking around.</p>
+                </div>
+                <button class="fancy-buttons">View Our Menus</button>
+            </div>
+            <div class="img1"></div>
+        </div>
+        <div class="main-image-text-sets">
+            <div class="img2"></div>
+            <div class="text-area">
+                <p class="main-titles">THE SALON AT SONA</p>
+                <div class="main-description">
+                    <p>Where sophistication meets intimacy.</p>
+
+                        <p>ideal hideaway for a long overdue reunion or a nice-to-meet-you.</p>
+                        
+                        <p>Savor world-class cocktails, teas and small plates ideal for sharing—or all to yourself.</p>
+                        
+                        <p>Open weeknights from 5PM and all-day on weekends from Noon onwards.</p>
+                </div>
+                
+                <button  class="fancy-buttons">View Menu</button>
+
+            </div>
+            
+        </div>
+        <div class="main-image-text-sets">
+            <div class="text-area">
+                <p class="main-titles">HOST AN EVENT</p>
+                <div class="main-description">
+                    <p>Atithi Devo Bhava translated in English to 'a guest is like a God', embodies the spirit of event service at SONA. Whether you're looking for a celebration hosted in one of our private dining rooms, or an off-site catered event at your home, we take pride in our ability to make your occasion all that you envision.</p>
+                </div>
+                <button class="fancy-buttons">Learn More</button>
+
+            </div>
+            <div class="img3"></div>
+        </div>
+    
+    </main>
+    <footer>
+        <div class="footer-info">
+            <p>36 E 20th St New York, NY 10003</p>
+            <p>	Phone: (212) 203-6460 </p>
+            <button>Email Signup</button>
+        </div>
+        <img src="#" alt="">
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
